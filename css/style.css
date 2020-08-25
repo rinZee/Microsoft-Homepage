@@ -106,7 +106,4 @@ ul {
 
 /* Media queries */
 @media (min-width: 1366px) {
-  body {
-    background: yellowgreen;
-  }
 }
