@@ -22,7 +22,7 @@ ul {
 }
 
 .container {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -102,4 +102,11 @@ ul {
 }
 .showcase h2 {
   font-size: 1rem;
+}
+
+/* Media queries */
+@media (min-width: 1366px) {
+  body {
+    background: yellowgreen;
+  }
 }
