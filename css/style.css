@@ -46,7 +46,7 @@ ul {
 }
 
 .main-nav ul li {
-  font-size: 8px;
+  font-size: 1rem;
 
   padding: 0 10px;
 }
@@ -67,7 +67,7 @@ ul {
   padding: 10px 20px;
   background: #000000;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -97,11 +97,11 @@ ul {
 }
 .showcase h2,
 .showcase p {
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 .showcase h2 {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 /* Media queries */
