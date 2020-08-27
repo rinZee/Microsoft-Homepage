@@ -46,8 +46,7 @@ ul {
 }
 
 .main-nav ul li {
-  font-size: 0.6rem;
-
+  font-size: 0.9rem;
   padding: 0 10px;
 }
 .main-nav ul li a:hover {
@@ -86,20 +85,21 @@ ul {
 }
 
 #left-info {
-  padding: 15vh;
+  padding-top: 30vh;
+  padding-left: 5vw;
   width: 50%;
   height: 100%;
 }
 #right-space {
-  width: 50%;
+  min-width: 50%;
 }
 .showcase h2,
 .showcase p {
-  font-size: 0.6rem;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 16px;
 }
 .showcase h2 {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 /* Media queries */
