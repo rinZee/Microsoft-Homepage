@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Microsoft Official Homepage</title>
+    <link rel="icon" href="./img/microssoft.ico" type="image/icon type" />
   </head>
   <body>
     <div class="container">
@@ -35,23 +36,43 @@
               <i class="fas fa-shopping-cart"></i>
             </a>
           </li>
+          </html>
         </ul>
       </nav>
 
       <!-- Showcase -->
-      <section class="showcase">
-        <div id="left-info">
-          <h2>Upto $200 off on Surface Book 3</h2>
-          <p>
-            Let inspiration strike with the fastest, most powerful Surface
-            laptop yet
-          </p>
-          <a href="#" class="btn">
-            Shop Now <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-        <div id="right-space"></div>
-      </section>
+      <div class="showcase">
+         <div class="slider">
+           <div class="slide current">
+            <div id="first">
+              <h2>Upto $200 off on Surface Book 3</h2>
+               <p>
+                Let inspiration strike with the fastest, most powerful Surface
+                laptop yet
+               </p>
+                <a href="#" class="btn">
+                Shop Now <i class="fas fa-chevron-right"></i>
+                 </a>
+            </div>
+           </div>
+           <div class="slide">
+            <div id="second">
+              <h2>Surface deals</h2>
+               <p>
+                Select surface are on sale now
+               </p>
+                <a href="#" class="btn">
+                Shop Now <i class="fas fa-chevron-right"></i>
+                 </a>
+            </div>
+           </div>
+           </div>
+         <div class="buttons">
+          <button id="prev"><i class="fas fa-arrow-left"></i></button>
+          <button id="next"><i class="fas fa-arrow-right"></i></button>
+         </div>
+         
+      </div>
     </div>
+    <script src="main.js"></script>
   </body>
-</html>
