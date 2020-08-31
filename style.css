@@ -143,10 +143,10 @@ button#prev {
 }
 /*background images*/
 .slide:first-child {
-  background: url("../img/slide1.png") no-repeat center center/cover;
+  background: url("./img/slide1.png") no-repeat center center/cover;
 }
 .slide:nth-child(2) {
-  background: url("../img/slide2.jfif") no-repeat center center/cover;
+  background: url("./img/slide2.jfif") no-repeat center center/cover;
 }
 /* Media queries */
 @media (min-width: 911px) {
