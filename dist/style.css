@@ -23,6 +23,7 @@ ul {
 
 .container {
   width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -77,29 +78,9 @@ ul {
 
 .showcase {
   position: relative;
-
   width: 100%;
   height: 70vh;
-}
-#first {
-  padding-top: 30vh;
-  padding-left: 5vw;
-  width: fit-content;
-}
-
-#second {
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 40vh;
-  width: fit-content;
-}
-.slider h2,
-.slider p {
-  font-size: 1rem;
-  margin-bottom: 16px;
-}
-.slider h2 {
-  font-size: 1.5rem;
+  margin-bottom: 10vh;
 }
 
 .slider {
@@ -116,6 +97,31 @@ ul {
 
 .slide.current {
   opacity: 1;
+}
+#first {
+  padding-top: 30vh;
+  padding-left: 5vw;
+  width: fit-content;
+}
+
+#second {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40vh;
+  width: fit-content;
+}
+.slider h2,
+.slider p {
+  margin-bottom: 16px;
+}
+
+.slider h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.slider p {
+  font-size: 1rem;
 }
 
 .buttons button {
@@ -148,6 +154,66 @@ button#prev {
 .slide:nth-child(2) {
   background: url("./img/slide2.jfif") no-repeat center center/cover;
 }
+
+/* shop */
+.shop {
+  margin: 0 3vw 10vh 3vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.shop__item {
+  text-align: center;
+  width: 20vw;
+  height: 100%;
+}
+.shop__img {
+  height: 50%;
+}
+.shop p {
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Card */
+.card {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+
+.card__item {
+  height: 100%;
+  width: 20vw;
+}
+
+.card__img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.card h2,
+.card p {
+  margin-bottom: 1rem;
+}
+.card h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.card p {
+  font-size: 0.9rem;
+}
+.card__item a {
+  color: #0067bf;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 /* Media queries */
 @media (min-width: 911px) {
 }
