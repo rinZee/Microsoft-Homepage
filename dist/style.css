@@ -83,6 +83,19 @@ ul {
   margin-bottom: 10vh;
 }
 
+.showcase h2,
+.showcase p {
+  margin-bottom: 16px;
+}
+
+.showcase h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.showcase p {
+  font-size: 1rem;
+}
 .slider {
   position: relative;
   width: 100%;
@@ -109,19 +122,6 @@ ul {
   margin: 0 auto;
   padding-top: 40vh;
   width: fit-content;
-}
-.slider h2,
-.slider p {
-  margin-bottom: 16px;
-}
-
-.slider h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.slider p {
-  font-size: 1rem;
 }
 
 .buttons button {
@@ -212,6 +212,13 @@ button#prev {
   color: #0067bf;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* offer */
+#offer {
+  height: 100%;
+  width: 100%;
+  background: url("./img/offer.png") no-repeat center center/cover;
 }
 
 /* Media queries */
