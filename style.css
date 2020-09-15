@@ -221,7 +221,42 @@ ul {
 .follow img {
   margin-left: 10px;
 }
-/* Links */
-.links {
+/* Links & footer */
+.links,
+.footer {
   background: #f2f2f2;
+  color: grey;
+  line-height: 30px;
+}
+/* Links*/
+
+.links-inner {
+  height: 250px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links a,
+.footer-inner a {
+  color: grey;
+  font-size: 11px;
+}
+/* footer */
+.footer-inner {
+  height: 70px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.footer-inner ul {
+  margin-left: 28%;
+  display: flex;
+}
+.footer-inner a {
+  padding-left: 15px;
 }
