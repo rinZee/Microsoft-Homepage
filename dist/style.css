@@ -92,16 +92,17 @@ ul {
 }
 /* Showcase */
 .showcase {
+  background: url(./img/surface-duo.png) no-repeat center center/cover;
   width: 100%;
   height: 450px;
-  background: url(./img/surface-duo.png) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 40px;
+}
+.showcase .content {
   padding-left: 70%;
 }
-
 .showcase h1 {
   font-size: 24px;
   font-weight: 600;
@@ -155,14 +156,18 @@ ul {
 }
 /* powerhouse */
 .powerhouse {
+  background: url(./img/powerhouse.jpg) no-repeat center center/cover;
   width: 100%;
   height: 450px;
-  background: url(./img/powerhouse.jpg) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 40px;
   padding-left: 30px;
+}
+
+.powerhouse .content {
+  width: 40%;
 }
 .powerhouse .content {
   width: 40%;
@@ -188,12 +193,12 @@ ul {
   height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   margin-bottom: 40px;
-  padding: 0 0 60px 80px;
 }
 .track .content {
   width: 40%;
+  padding: 0 0 60px 80px;
 }
 .track .btn {
   width: fit-content;
@@ -265,6 +270,11 @@ ul {
 }
 
 /*media queries*/
+@media (max-width: 1080px) {
+  .container {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .card {
     grid-template-columns: repeat(2, 1fr);
@@ -272,10 +282,48 @@ ul {
   .links-inner {
     grid-template-columns: repeat(3, 1fr);
   }
+  .main-nav .main-menu {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
+  .showcase,
+  .powerhouse,
+  .track {
+    height: 80vh;
+  }
+  .showcase .content {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50vh;
+  }
+  .shop {
+    flex-direction: column;
+  }
+  .shop__item {
+    padding-bottom: 30px;
+  }
+  .shop__item img {
+    padding-bottom: 10px;
+  }
+  .powerhouse .content,
+  .track .content {
+    margin: 0;
+    padding: 0 10vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
   .card {
     grid-template-columns: 1fr;
+  }
+  .card__item {
+    text-align: center;
   }
 }
